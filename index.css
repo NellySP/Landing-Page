@@ -61,8 +61,15 @@ main {
 .newItems {
 }
 .grid {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
 }
 .imagesAndText {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Testimonials */
