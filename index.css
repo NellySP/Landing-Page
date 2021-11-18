@@ -22,12 +22,71 @@
   margin: 0%;
 }
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
+h1,
+h2,
+p {
+  text-align: center;
+  font-family: var(--paragraph);
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Header */
+
+header {
+  background-color: var(--c-primary);
+}
+
+.headerLogo {
+  font-family: var(--logo);
+  font-weight: bold;
+}
+.hamburgerMenu {
+}
+
+/* Main */
+
+main {
+}
+
+/* Hero */
+
+.background {
+  background-color: var(--c-primary);
+}
+
+.newItems {
+}
+.grid {
+}
+.imagesAndText {
+}
+
+/* Testimonials */
+
+.testimonials {
+  background-color: var(--testi-bg);
+}
+.testWrapper {
+}
+.testimonialText {
+}
+
+/* About us */
+
+.aboutUs {
+}
+
+/* Contact us */
+.contactUs {
+}
+
 /********* Social Media Section *********/
 
-/* .socialMedia {
+.socialMedia {
   background-color: var(--c-primary);
 }
 
@@ -43,112 +102,18 @@
   height: 160px;
   object-fit: cover;
   object-position: center;
-} */
-=======
->>>>>>> Stashed changes
-h1, h2, p {
-    text-align: center;
-    font-family: var(--paragraph);
 }
-
-
-body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-/* Header */
-
-header {
-    background-color: var(--c-primary);
-
-}
-
-.headerLogo{
-font-family: var(--logo);
-font-weight: bold;
-}
-.hamburgerMenu{
-
-}
-
-/* Main */
-
-main {
-
-}
-
-/* Hero */
-
-.background {
-    background-color: var(--c-primary);
-
-}
-
-.newItems {
-
-}
-.grid {
-
-}
-.imagesAndText {
-
-}
-
-/* Testimonials */
-
-.testimonials {
-    background-color: var(--testi-bg);
-
-}
-.testWrapper {
-
-}
-.testimonialText{
-
-}
-
-/* About us */
-
-.aboutUs {
-
-}
-
-/* Contact us */
-.contactUs {
-
-}
-
-<<<<<<< Updated upstream
-
-=======
-/* Social media */
-
-.socialMedia {
-
-}
-.imgGrid {
-
-}
->>>>>>> Stashed changes
-
 
 /* Footer */
 
 footer {
-background-color: var(--footer-bg);
-color: var(--c-primary);
+  background-color: var(--footer-bg);
+  color: var(--c-primary);
 }
 
 .footerLogo {
-font-family: var(--logo);
-font-weight: bold;
+  font-family: var(--logo);
+  font-weight: bold;
 }
 .copyright {
-
 }
-
-<<<<<<< Updated upstream
-=======
->>>>>>> 64c0e9f50f67a5142d38e1081e4f7d9b94c2bb04
->>>>>>> Stashed changes
