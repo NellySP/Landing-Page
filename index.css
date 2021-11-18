@@ -81,6 +81,7 @@ main {
 
 .testimonials {
   background-color: var(--testi-bg);
+  color: var(--c-primary);
 }
 .testWrapper {
 }
