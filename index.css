@@ -56,9 +56,6 @@ nav {
   font-family: var(--logo);
   font-weight: bold;
   font-size: 300%;
-<<<<<<< Updated upstream
-  /* text-align: center; */
-  /* padding-left: 5vh; */
 }
 
   
@@ -70,35 +67,6 @@ nav {
     margin: 7px 0;
     top: 50%;
     left: 50%;
-    
-    /*
-=======
-  text-align: start;
-  padding-left: 5vh;
-}
-.hamburgerMenu {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav-toggle {
-  position: relative;
-  padding: 10px;
-  background: transparent;
-  border: 1px solid transparent;
-  margin: 7px 0;
-  top: 50%;
-  left: 50%;
-
-  /*
->>>>>>> Stashed changes
-     * FOR PRESENTATION ONLY
-     * Centers everything, remove for
-     * practical purposes.
-    */
-<<<<<<< Updated upstream
-    /* -webkit-transform:(-50%, -50%);
-            transform: translate(-50%, -50%); */
   }
   
   .nav-toggle:focus {
@@ -138,11 +106,6 @@ nav {
     -webkit-transform-origin: 15% 95%;
             transform-origin: 15% 95%;
   }
-=======
-  -webkit-transform: (-50%, -50%);
-  transform: translate(-50%, -50%);
-}
->>>>>>> Stashed changes
 
 .nav-toggle:focus {
   outline-width: 0;
@@ -181,6 +144,22 @@ nav {
   -webkit-transform-origin: 15% 95%;
   transform-origin: 15% 95%;
 }
+
+/* hidden menu */
+  
+   .myLinks {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 14px 16px;
+    font-size: 17px;
+    display: block;
+  }
+
+  .myLinks a{
+   text-decoration: none;
+   color: var(--fc-primary);
+  }
 
 /* Main */
 
