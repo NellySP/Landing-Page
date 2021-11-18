@@ -26,6 +26,11 @@ h1, h2, p {
     text-align: center;
 }
 
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 /* Header */
 
 header {
@@ -48,7 +53,7 @@ main {
 /* Hero */
 
 .background {
-    
+
 }
 
 .newItems {
