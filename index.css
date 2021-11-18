@@ -68,10 +68,11 @@ main {
     display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
 }
-.imagesAndText {
-    width: 50vh;
-    height: 50vh;
+.imagesAndText img{
+    width: 160px;
+    height: 160px;
     object-fit: cover;
     object-position: center;
 }
