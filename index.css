@@ -22,6 +22,30 @@
   margin: 0%;
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+/********* Social Media Section *********/
+
+/* .socialMedia {
+  background-color: var(--c-primary);
+}
+
+.imgGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.socialMedia img {
+  background-color: var(--c-primary);
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+} */
+=======
+>>>>>>> Stashed changes
 h1, h2, p {
     text-align: center;
     font-family: var(--paragraph);
@@ -95,7 +119,18 @@ main {
 
 }
 
+<<<<<<< Updated upstream
 
+=======
+/* Social media */
+
+.socialMedia {
+
+}
+.imgGrid {
+
+}
+>>>>>>> Stashed changes
 
 
 /* Footer */
@@ -113,3 +148,7 @@ font-weight: bold;
 
 }
 
+<<<<<<< Updated upstream
+=======
+>>>>>>> 64c0e9f50f67a5142d38e1081e4f7d9b94c2bb04
+>>>>>>> Stashed changes
