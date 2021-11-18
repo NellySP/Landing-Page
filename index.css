@@ -24,7 +24,9 @@
 
 h1, h2, p {
     text-align: center;
+    font-family: var(--paragraph);
 }
+
 
 body {
     max-width: 100%;
@@ -38,7 +40,8 @@ header {
 }
 
 .headerLogo{
-
+font-family: var(--logo);
+font-weight: bold;
 }
 .hamburgerMenu{
 
@@ -106,7 +109,8 @@ footer {
 }
 
 .footerLogo {
-
+font-family: var(--logo);
+font-weight: bold;
 }
 .copyright {
 
