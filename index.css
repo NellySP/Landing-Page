@@ -90,10 +90,16 @@ main {
   background-color: var(--c-primary);
 }
 
-.imgGrid {
+/* .imgGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
+} */
+
+.imgGrid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .socialMedia img {
