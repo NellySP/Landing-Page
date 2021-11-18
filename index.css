@@ -36,6 +36,7 @@ body {
 /* Header */
 
 header {
+    background-color: var(--c-primary);
 
 }
 
@@ -56,6 +57,7 @@ main {
 /* Hero */
 
 .background {
+    background-color: var(--c-primary);
 
 }
 
@@ -72,6 +74,7 @@ main {
 /* Testimonials */
 
 .testimonials {
+    background-color: var(--testi-bg);
 
 }
 .testWrapper {
@@ -105,7 +108,8 @@ main {
 /* Footer */
 
 footer {
-
+background-color: var(--footer-bg);
+color: var(--c-primary);
 }
 
 .footerLogo {
