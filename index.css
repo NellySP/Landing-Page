@@ -167,6 +167,13 @@ main {
 .aboutUs {
 }
 
+.aboutUs img {
+    width: 50vh;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* Contact us */
 .contactUs {
 }
