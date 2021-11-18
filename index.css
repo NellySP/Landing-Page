@@ -32,6 +32,10 @@ p {
 body {
   max-width: 100%;
   overflow-x: hidden;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  min-height: 100%;
 }
 
 /* Header */
@@ -61,8 +65,15 @@ main {
 .newItems {
 }
 .grid {
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .imagesAndText {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Testimonials */
