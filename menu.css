@@ -1,0 +1,145 @@
+/* Header */
+
+header {
+  background-color: var(--c-primary);
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  /* display: flex; */
+}
+
+#TopBar {
+  width: 100%;
+  background-color: transparent;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+}
+
+.headerLogo {
+  font-family: var(--logo);
+  font-weight: bold;
+  font-size: 300%;
+}
+
+/* Style the hamburger menu */
+
+#nav-toggle {
+  border: none;
+  display: block;
+  background: none;
+  position: absolute;
+  left: 3%;
+  top: 4%;
+}
+
+/* nav and dropdown-menu */
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+/* #myLinks {
+    text-align: center;
+    background-color: var(--c-primary);
+    overflow: auto;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    width: 100%;
+    display: none;
+  } */
+
+/* Style navigation menu links */
+/* #myLinks a {
+    color: rgb(12, 11, 11);
+    font-size: 17px;
+  }
+  
+  #myLinks ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #LaptopNav {
+    display: none;
+  } */
+
+/* .MenuItems {
+    display: none;
+  } */
+
+/* @media screen and (min-width: 400px) { */
+/* Laptop Menu */
+
+/* .TopBar {
+      display: none;
+    }
+  
+    .nav-toggle {
+      display: none;
+    }
+  
+    .Logo {
+      display: none;
+    }
+  
+    #myLinks {
+      display: block;
+      overflow: hidden;
+      position: relative;
+      padding: 14px 16px;
+      font-size: 17px;
+      display: none;
+      background-color: var(--c-primary);
+    }
+  
+    #myLinks a {
+      text-decoration: none;
+      color: var(--fc-primary);
+    }
+  
+    #LaptopNav {
+      width: 100%;
+      display: block;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 40px;
+    }
+  
+    .MenuItems {
+      width: auto;
+      height: auto;
+      float: none;
+      display: inline-block;
+      margin-right: 10px;
+      justify-self: flex-end;
+    }
+  
+    .MenuItems ul {
+      list-style-type: none;
+      display: inline-block;
+      text-align: right;
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    .MenuItems ul a {
+      text-decoration: none;
+    }
+  
+    .MenuItems li {
+      padding: 5px;
+    } */
+/* } */
+
+/* shopping cart */
+
+.shopping-cart-btn {
+  border: none;
+  background: none;
+  position: absolute;
+  right: 3%;
+  top: 4%;
+}
