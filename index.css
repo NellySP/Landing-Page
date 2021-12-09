@@ -647,6 +647,15 @@ footer {
   width: 100%;
 }
 
+footer img {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .mobileFooter {
   padding-top: 20px;
   padding-bottom: 20px;
