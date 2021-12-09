@@ -452,11 +452,25 @@ main {
 
 .testimonials {
   background-color: var(--testi-bg);
-  color: var(--c-primary);
+  color: #fff;
+  width: 100%;
 }
+
+.testimonials h2 {
+  font-style: var(--logo);
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 40px;
+}
+
 .testWrapper {
 }
-.testimonialText {
+
+.testimonials p {
+  width: 50%;
+  margin: 0 auto;
+  text-align: match-parent;
+  padding: 20px;
 }
 
 /* About us */
