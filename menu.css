@@ -9,7 +9,7 @@ header {
 
 nav {
   width: 100%;
-  /* display: flex; */
+  height: 100%;
 }
 
 /* #TopBar {
@@ -24,6 +24,16 @@ nav {
   font-family: var(--logo);
   font-weight: bold;
   font-size: 300%;
+}
+
+/* shopping cart */
+
+.shopping-cart-btn {
+  border: none;
+  background: none;
+  position: absolute;
+  right: 3%;
+  top: 4%;
 }
 
 /* Style the hamburger menu */
@@ -121,7 +131,7 @@ nav {
 
   #LaptopNav ul {
     list-style-type: none;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: inline-block;
     text-align: right;
     width: 100%;
@@ -136,14 +146,4 @@ nav {
     padding: 5px;
     display: inline;
   }
-}
-
-/* shopping cart */
-
-.shopping-cart-btn {
-  border: none;
-  background: none;
-  position: absolute;
-  right: 3%;
-  top: 4%;
 }
