@@ -1,25 +1,15 @@
-(function () {
-    const toggle = document.querySelector('.nav-toggle');
-    
-    toggle.addEventListener('click', function(e) {
-      this.classList.toggle('opened');
-    });
-  })();
+// burger
 
-//   (function () {
-//     const toggle = document.querySelector('.myLinks');
-    
-//     toggle.addEventListener('click', function(e) {
-//       this.classList.toggle('opened');
-//     });
-//   })();
-//   hidden menu
-
-function hidden() {
-    const x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
+function MyFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
+}
+
+let menuButton = document.getElementById("nav-toggle");
+menuButton.addEventListener("click", function (e) {
+  MyFunction();
+});

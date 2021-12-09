@@ -53,176 +53,129 @@ nav {
   display: flex;
 }
 
+#TopBar {
+  width: 100%;
+  background-color: transparent;
+  /* display: flex; */
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+}
+
 .headerLogo {
   font-family: var(--logo);
   font-weight: bold;
   font-size: 300%;
 }
 
-.nav-toggle {
-  justify-self: flex-start;
-  /* padding: 10px; */
-  background: transparent;
-  border: 1px solid transparent;
-  /* margin: 7px 0;
-  top: 50%;
-  left: 50%; */
-}
+/* Style the hamburger menu */
 
-.nav-toggle:focus {
-  outline-width: 0;
-}
-
-.nav-toggle [class*="bar-"] {
-  background: var(--fc-primary);
+#nav-toggle {
+  background-color: transparent;
+  border: none;
   display: block;
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
-
-  border-radius: 2px;
-  height: 2px;
-  width: 25px;
-  margin-bottom: 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  cursor: pointer;
 }
 
-.nav-toggle .bar-bot {
-  margin-bottom: 0;
+/* nav and dropdown-menu */
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+#myLinks {
+  text-align: center;
+  background-color: var(--c-primary);
+  overflow: auto;
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  width: 100%;
+  display: none;
 }
 
-.opened .bar-top {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-transform-origin: 15% 15%;
-  transform-origin: 15% 15%;
-}
-.opened .bar-mid {
-  opacity: 0;
-}
-.opened .bar-bot {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(-45deg);
-  -webkit-transform-origin: 15% 95%;
-  transform-origin: 15% 95%;
-}
-/* text-align: center; */
-/* padding-left: 5vh; */
-
-/* .nav-toggle {
-  justify-self: flex-start;
-  padding: 10px;
-  background: transparent;
-  border: 1px solid transparent;
-  margin: 7px 0;
-  top: 50%;
-  left: 50%; */
-
-/*
-     * FOR PRESENTATION ONLY
-     * Centers everything, remove for
-     * practical purposes.
-    */
-/* -webkit-transform:(-50%, -50%);
-            transform: translate(-50%, -50%); */
-
-/* 
-.nav-toggle:focus {
-  outline-width: 0;
+/* Style navigation menu links */
+#myLinks a {
+  color: rgb(12, 11, 11);
+  font-size: 17px;
 }
 
-.nav-toggle [class*="bar-"] {
-  background: var(--fc-primary);
-  display: block;
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
-
-  border-radius: 2px;
-  height: 2px;
-  width: 25px;
-  margin-bottom: 4px;
+#myLinks ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.nav-toggle .bar-bot {
-  margin-bottom: 0;
+#LaptopNav {
+  display: none;
 }
 
-.opened .bar-top {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-transform-origin: 15% 15%;
-  transform-origin: 15% 15%;
-}
-.opened .bar-mid {
-  opacity: 0;
-}
-.opened .bar-bot {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(-45deg);
-  -webkit-transform-origin: 15% 95%;
-  transform-origin: 15% 95%;
+/* .MenuItems {
+  display: none;
 } */
 
-.nav-toggle:focus {
-  outline-width: 0;
-}
+@media screen and (min-width: 400px) {
+  /* Laptop Menu */
 
-.nav-toggle [class*="bar-"] {
-  background: var(--fc-primary);
-  display: block;
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: 0.2s ease all;
-  transition: 0.2s ease all;
+  .TopBar {
+    display: none;
+  }
 
-  border-radius: 2px;
-  height: 2px;
-  width: 25px;
-  margin-bottom: 4px;
-}
+  .nav-toggle {
+    display: none;
+  }
 
-.nav-toggle .bar-bot {
-  margin-bottom: 0;
-}
+  .Logo {
+    display: none;
+  }
 
-.opened .bar-top {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-transform-origin: 15% 15%;
-  transform-origin: 15% 15%;
-}
-.opened .bar-mid {
-  opacity: 0;
-}
-.opened .bar-bot {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(-45deg);
-  -webkit-transform-origin: 15% 95%;
-  transform-origin: 15% 95%;
-}
+  #myLinks {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 14px 16px;
+    font-size: 17px;
+    display: none;
+    background-color: var(--c-primary);
+  }
 
-.nav-toggle {
-  position: absolute;
-  left: 3%;
-  top: 4%;
-}
+  #myLinks a {
+    text-decoration: none;
+    color: var(--fc-primary);
+  }
 
-/* hidden menu */
+  #LaptopNav {
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+  }
 
-.myLinks {
-  display: block;
-  overflow: hidden;
-  position: relative;
-  padding: 14px 16px;
-  font-size: 17px;
-  display: block;
-}
+  .MenuItems {
+    width: auto;
+    height: auto;
+    float: none;
+    display: inline-block;
+    margin-right: 10px;
+    justify-self: flex-end;
+  }
 
-.myLinks a {
-  text-decoration: none;
-  color: var(--fc-primary);
+  .MenuItems ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .MenuItems ul a {
+    text-decoration: none;
+  }
+
+  .MenuItems li {
+    padding: 5px;
+  }
 }
 
 /* shopping cart */
@@ -231,7 +184,7 @@ nav {
   border: none;
   background: none;
   position: absolute;
-  right: 3%;
+  left: 3%;
   top: 4%;
 }
 
