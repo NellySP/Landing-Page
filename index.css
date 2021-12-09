@@ -56,60 +56,6 @@ nav {
   font-family: var(--logo);
   font-weight: bold;
   font-size: 300%;
-<<<<<<< Updated upstream
-}
-
-  
-  .nav-toggle {
-    justify-self: flex-start;
-    padding: 10px;
-    background: transparent;
-    border: 1px solid transparent;
-    margin: 7px 0;
-    top: 50%;
-    left: 50%;
-  }
-  
-  .nav-toggle:focus {
-    outline-width: 0;
-  }
-  
-  .nav-toggle [class*='bar-'] {
-    background: var(--fc-primary);
-    display: block;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    -webkit-transition: .2s ease all;
-            transition: .2s ease all;
-    
-    border-radius: 2px;
-    height: 2px;
-    width: 25px;
-    margin-bottom: 4px;
-  }
-  
-  .nav-toggle .bar-bot {
-    margin-bottom: 0;
-  }
-  
-  .opened .bar-top {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    -webkit-transform-origin: 15% 15%;
-            transform-origin: 15% 15%;
-  }
-  .opened .bar-mid {
-    opacity: 0;
-  }
-  .opened .bar-bot {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(-45deg);
-    -webkit-transform-origin: 15% 95%;
-            transform-origin: 15% 95%;
-  }
-=======
-  /* text-align: center; */
-  /* padding-left: 5vh; */
 }
 
 .nav-toggle {
@@ -120,14 +66,6 @@ nav {
   margin: 7px 0;
   top: 50%;
   left: 50%;
-
-  /*
-     * FOR PRESENTATION ONLY
-     * Centers everything, remove for
-     * practical purposes.
-    */
-  /* -webkit-transform:(-50%, -50%);
-            transform: translate(-50%, -50%); */
 }
 
 .nav-toggle:focus {
@@ -167,7 +105,64 @@ nav {
   -webkit-transform-origin: 15% 95%;
   transform-origin: 15% 95%;
 }
->>>>>>> Stashed changes
+/* text-align: center; */
+/* padding-left: 5vh; */
+
+/* .nav-toggle {
+  justify-self: flex-start;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid transparent;
+  margin: 7px 0;
+  top: 50%;
+  left: 50%; */
+
+/*
+     * FOR PRESENTATION ONLY
+     * Centers everything, remove for
+     * practical purposes.
+    */
+/* -webkit-transform:(-50%, -50%);
+            transform: translate(-50%, -50%); */
+
+/* 
+.nav-toggle:focus {
+  outline-width: 0;
+}
+
+.nav-toggle [class*="bar-"] {
+  background: var(--fc-primary);
+  display: block;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+
+  border-radius: 2px;
+  height: 2px;
+  width: 25px;
+  margin-bottom: 4px;
+}
+
+.nav-toggle .bar-bot {
+  margin-bottom: 0;
+}
+
+.opened .bar-top {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 15% 15%;
+  transform-origin: 15% 15%;
+}
+.opened .bar-mid {
+  opacity: 0;
+}
+.opened .bar-bot {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 15% 95%;
+  transform-origin: 15% 95%;
+} */
 
 .nav-toggle:focus {
   outline-width: 0;
@@ -208,20 +203,20 @@ nav {
 }
 
 /* hidden menu */
-  
-   .myLinks {
-    display: block;
-    overflow: hidden;
-    position: relative;
-    padding: 14px 16px;
-    font-size: 17px;
-    display: block;
-  }
 
-  .myLinks a{
-   text-decoration: none;
-   color: var(--fc-primary);
-  }
+.myLinks {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding: 14px 16px;
+  font-size: 17px;
+  display: block;
+}
+
+.myLinks a {
+  text-decoration: none;
+  color: var(--fc-primary);
+}
 
 /* Main */
 
