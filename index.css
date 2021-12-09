@@ -539,20 +539,23 @@ input[type="submit"] {
 @media screen and (min-width: 500px) {
   input[type="text"],
   select {
-    width: 60%;
+    width: 90%;
   }
 
   input[type="email"],
   select {
-    width: 60%;
+    width: 90%;
   }
 
   textarea {
-    width: 60%;
+    width: 90%;
   }
 
   input[type="submit"] {
-    width: 60%;
+    width: 90%;
+  }
+  form {
+    text-align: center;
   }
 }
 
