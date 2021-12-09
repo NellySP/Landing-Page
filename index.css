@@ -609,6 +609,11 @@ footer {
   width: 100%;
 }
 
+.mobileFooter {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .mobileFooter p {
   padding: 10px;
 }
@@ -634,7 +639,6 @@ footer {
     height: 100%;
     width: 100%;
     padding-top: 15%;
-    display: block;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
