@@ -47,8 +47,6 @@ nav {
 }
 
 /* nav and dropdown-menu */
-
-/* Hide the links inside the navigation menu (except for logo/home) */
 #myLinks {
   text-align: center;
   background-color: var(--c-primary);
@@ -59,7 +57,7 @@ nav {
 /* Style navigation menu links */
 #myLinks a {
   text-decoration: none;
-  color: rgb(12, 11, 11);
+  color: var(--fc-primary);
   font-size: 17px;
 }
 
