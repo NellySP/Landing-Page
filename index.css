@@ -305,13 +305,12 @@ main {
 form {
   text-align: left;
   padding-left: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 input[type="text"],
 select {
-  width: 100%;
   padding: 12px 20px;
   margin: 10px 10px 10px 10px;
   display: inline-block;
@@ -323,7 +322,6 @@ select {
 
 input[type="email"],
 select {
-  width: 100%;
   padding: 12px 20px;
   margin: 10px 10px 10px 10px;
   display: inline-block;
@@ -334,7 +332,6 @@ select {
 }
 
 textarea {
-  width: 100%;
   padding: 12px 20px;
   margin: 10px 10px 10px 10px;
   display: inline-block;
@@ -345,7 +342,6 @@ textarea {
 }
 
 input[type="submit"] {
-  width: 100%;
   background-color: var(--footer-bg);
   color: var(--c-primary);
   padding: 12px 20px;
@@ -355,6 +351,26 @@ input[type="submit"] {
   cursor: pointer;
   box-sizing: border-box;
   width: 90%;
+}
+
+@media screen and (min-width: 500px) {
+  input[type="text"],
+  select {
+    width: 60%;
+  }
+
+  input[type="email"],
+  select {
+    width: 60%;
+  }
+
+  textarea {
+    width: 60%;
+  }
+
+  input[type="submit"] {
+    width: 60%;
+  }
 }
 
 /********* Social Media Section *********/
