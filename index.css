@@ -599,6 +599,10 @@ input[type="submit"] {
 
 /* Footer */
 
+.laptopFooter {
+  display: none;
+}
+
 footer {
   background-color: var(--footer-bg);
   color: var(--c-primary);
@@ -613,10 +617,16 @@ footer {
 }
 
 @media screen and (min-width: 500px) {
-  footer {
+  .mobileFooter {
+    display: none;
+  }
+
+  .laptopFooter {
+    display: block;
     display: flex;
     justify-content: space-evenly;
   }
+
   footer p {
     padding-top: 8%;
   }
