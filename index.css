@@ -611,3 +611,13 @@ footer {
 }
 .copyright {
 }
+
+@media screen and (min-width: 500px) {
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  footer p {
+    padding-top: 8%;
+  }
+}
