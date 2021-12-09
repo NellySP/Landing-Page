@@ -609,6 +609,10 @@ footer {
   width: 100%;
 }
 
+.mobileFooter p {
+  padding: 10px;
+}
+
 .footerLogo {
   font-family: var(--logo);
   font-weight: bold;
@@ -629,7 +633,7 @@ footer {
   .laptopFooter {
     height: 100%;
     width: 100%;
-    padding-top: 20%;
+    padding-top: 15%;
     display: block;
     display: flex;
     justify-content: space-evenly;
@@ -637,11 +641,8 @@ footer {
     text-align: center;
   }
 
-  footer p {
-    padding-bottom: 8%;
-  }
-
   .footerLogo {
     padding-bottom: 8%;
+    font-size: 500%;
   }
 }
