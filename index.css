@@ -61,12 +61,12 @@ nav {
 
 .nav-toggle {
   justify-self: flex-start;
-  padding: 10px;
+  /* padding: 10px; */
   background: transparent;
   border: 1px solid transparent;
-  margin: 7px 0;
+  /* margin: 7px 0;
   top: 50%;
-  left: 50%;
+  left: 50%; */
 }
 
 .nav-toggle:focus {
@@ -203,6 +203,12 @@ nav {
   transform-origin: 15% 95%;
 }
 
+.nav-toggle {
+  position: absolute;
+  left: 3%;
+  top: 4%;
+}
+
 /* hidden menu */
 
 .myLinks {
@@ -219,6 +225,16 @@ nav {
   color: var(--fc-primary);
 }
 
+/* shopping cart */
+
+.shopping-cart-btn {
+  border: none;
+  background: none;
+  position: absolute;
+  right: 3%;
+  top: 4%;
+}
+
 /* Main */
 
 main {
@@ -226,15 +242,37 @@ main {
 
 /* Hero */
 
+.hero {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
 .background {
   background-color: var(--c-primary);
+  height: 40vh;
 }
 
 .background img {
-  width: 50vh;
-  height: 50vh;
+  width: 80%;
+  height: 80%;
   object-fit: cover;
   object-position: center;
+}
+
+.hero button {
+  display: inline-block;
+  border: 1px solid var(--fc-primary);
+  padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  background: var(--fc-primary);
+  color: var(--c-primary);
+  outline: 1px solid var(--c-primary);
+  outline-offset: -4px;
 }
 
 /* New Items */
