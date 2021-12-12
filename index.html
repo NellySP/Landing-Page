@@ -9,7 +9,7 @@
     <title>Leafly</title>
   </head>
   <body>
-    <header>
+    <!-- <header>
       <div id="TopBar">
         <button id="nav-toggle">
           <img src="/socialMediaLogos/menu(1) 1.svg" alt="three lines" />
@@ -55,10 +55,10 @@
             />
           </svg>
         </button>
-        <!-- Desktop-Menu -->
+        Desktop-Menu
       </div>
 
-      <!-- Mobile-Menu-->
+      Mobile-Menu
       <nav class="TopNav" id="myLinks">
         <ul>
           <li><a href="#News">News</a></li>
@@ -66,23 +66,59 @@
           <li><a href="#About">About</a></li>
         </ul>
       </nav>
-    </header>
-    <main>
-      <!-- <hero class="hero">
-        <div class="background">
+    </header> -->
+    <header class="header">
+      <nav class="navbar wrapper">
+        <a href="#" class="nav-logo">Leafly</a>
+        <ul class="nav-menu" style="padding-left: 0px">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item nav-item-padding">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item nav-item-padding">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+          <!-- <li class="nav-item shopping-cart"> -->
+          <!-- <a href="#" class="nav-link">Contact</a> -->
+          <!-- <img src="./images/shopping-cart.svg" alt="" /> -->
+          <!-- </li> -->
+        </ul>
+        <div class="mobile-ham-wrapper">
           <img
-            src="/images/heroImg.webp"
-            alt="three big, green plants in pots with legs standing on the floor on a line"
+            src="./images/shopping-cart.svg"
+            alt=""
+            class="desktop-shopping"
           />
-        </div>
 
-        <div class="hero-text">
-          <h1>Heading Lorem</h1>
-          <p>Lorem iousm dries henndaj adhadh ahawhd hawd</p>
-          <button>Our Products</button>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
         </div>
-      </hero> -->
-      <section class="newItems">
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="background">
+          <div class="wrapper">
+            <img
+              src="/images/heroImg.webp"
+              alt="three big, green plants in pots with legs standing on the floor on a line"
+              class="hero-img"
+            />
+          </div>
+          <div class="hero-text">
+            <h1>Heading Lorem</h1>
+            <p>Lorem iousm dries henndaj adhadh ahawhd hawd</p>
+            <button class="cta">Our Products</button>
+          </div>
+        </div>
+      </section>
+      <section class="newItems wrapper">
         <h2>What's New</h2>
         <div class="grid">
           <div class="imagesAndText">
@@ -172,14 +208,16 @@
         </form>
       </section>
       <section class="socialMedia">
-        <h2>Instagram</h2>
-        <div class="imgGrid">
-          <div><img src="/images/instagram1.webp" alt="" /></div>
-          <div><img src="/images/instagram2.webp" alt="" /></div>
-          <div><img src="/images/instagram3.webp" alt="" /></div>
-          <div><img src="/images/instagram4.webp" alt="" /></div>
-          <div><img src="/images/instagram5.webp" alt="" /></div>
-          <div><img src="/images/instagram6.webp" alt="" /></div>
+        <div class="wrapper">
+          <h2>Instagram</h2>
+          <div class="imgGrid">
+            <div><img src="/images/instagram1.webp" alt="" /></div>
+            <div><img src="/images/instagram2.webp" alt="" /></div>
+            <div><img src="/images/instagram3.webp" alt="" /></div>
+            <div><img src="/images/instagram4.webp" alt="" /></div>
+            <div><img src="/images/instagram5.webp" alt="" /></div>
+            <div><img src="/images/instagram6.webp" alt="" /></div>
+          </div>
         </div>
       </section>
     </main>
