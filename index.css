@@ -601,7 +601,7 @@ footer {
   margin-bottom: 0;
 }
 
-footer img {
+.mobileFooter img {
   height: 30px;
   width: 30px;
   margin-bottom: 20px;
@@ -630,7 +630,7 @@ footer img {
     display: none;
   }
 
-  footer img {
+  .laptopFooter img {
     width: 40px;
     height: 40px;
   }
@@ -640,12 +640,12 @@ footer img {
   }
 
   .laptopFooter {
-    height: 100%;
-    width: 100%;
-    padding-top: 15%;
+    padding-top: 10%;
     position: relative;
     display: flex;
     justify-content: space-evenly;
+    line-height: 0%;
+    bottom: 0;
   }
 
   .footerLogo {
