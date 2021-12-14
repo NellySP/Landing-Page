@@ -104,12 +104,16 @@ body {
   color: var(--fc-primary);
 }
 
-.shopping-cart {
-  padding-top: 5px;
+.desktop-shopping {
+  cursor: pointer;
 }
 
+/* .shopping-cart {
+  padding-top: 5px;
+} */
+
 .nav-link:hover {
-  color: #482ff7;
+  color: var(--footer-bg);
 }
 
 .nav-logo {
@@ -187,6 +191,8 @@ body {
   object-position: center;
   top: 20%;
   right: 5%;
+  outline: 10px solid white;
+  /* outline-offset: 5px; */
 }
 
 .hero-text {
