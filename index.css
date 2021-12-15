@@ -310,6 +310,18 @@ body {
   }
 }
 
+@media (min-width: 1920px) and (min-height: 1080px) {
+  .hero-img {
+    right: 13%;
+  }
+}
+
+@media (min-width: 2260px) and (min-height: 1080px) {
+  .hero-img {
+    right: 25%;
+  }
+}
+
 /* New Items */
 
 /* .imgGrid {
