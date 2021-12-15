@@ -419,9 +419,17 @@ body {
 .aboutUs {
 }
 
+.about-us-heading {
+  margin: clamp(1.2rem, 15vw, 4rem);
+}
+
+.about-us-p {
+  margin: clamp(1.2rem, 15vw, 4rem);
+}
+
 .aboutUs img {
-  width: 100%;
-  height: 50vh;
+  width: min(500px, 90vw);
+  height: auto;
   object-fit: cover;
   object-position: center;
 }
@@ -442,7 +450,7 @@ body {
 
 form {
   text-align: left;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   padding-top: 50px;
   padding-bottom: 50px;
 }
