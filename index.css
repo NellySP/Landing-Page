@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
 
 :root {
   /********* Colors *********/
@@ -106,7 +106,7 @@ body {
 
 .nav-link {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--fc-primary);
 }
 
@@ -186,8 +186,8 @@ body {
 
 .background {
   background-color: var(--c-primary);
-  height: 20vh;
-  margin-bottom: 20rem;
+  height: 30vh;
+  margin-bottom: 15rem;
 }
 
 .hero-img {
@@ -206,15 +206,26 @@ body {
   /* width: min(90vw, 130ch); */
   width: clamp(90vw, 90vw, 130ch);
   margin: 0 auto;
+  max-width: 100ch;
 }
 
 .hero p {
-  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-size: 1rem;
+  /* font-size: clamp(1rem, 2vw, 1.2rem); */
   /* max-width: 50ch; */
+  color: var(--fc-primary);
+  font-weight: 300;
+}
+
+.light-hero-text {
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  font-weight: 200;
+  color: var(--fc-primary);
 }
 
 .hero-h1 {
   font-size: clamp(1.8rem, 3vw, 3rem);
+  color: var(--fc-primary);
 }
 @media (min-width: 1000px) and (min-height: 1000px) {
   .hero-text {
@@ -253,6 +264,9 @@ body {
     width: min(500px, 90vw);
   } */
   }
+  .background {
+    margin-bottom: 5rem;
+  }
 }
 
 @media (min-width: 1240px) and (min-height: 600px) {
@@ -284,14 +298,15 @@ body {
   text-align: center;
   background: var(--fc-primary);
   color: var(--c-primary);
-  outline: 1px solid var(--c-primary);
-  outline-offset: -4px;
+  /* outline: 1px solid var(--c-primary);
+  outline-offset: -4px; */
+  font-weight: 300;
 }
 
 /* Ipad Size */
 @media (min-width: 810px) and (min-height: 1080px) {
   .background {
-    margin-bottom: 25rem;
+    margin-bottom: 15rem;
   }
 }
 
@@ -355,8 +370,9 @@ body {
 .newItems h2 {
   font-style: var(--logo);
   font-size: 20px;
-  font-weight: 600;
-  padding-top: 40px;
+  font-weight: 400;
+  padding-top: clamp(1.2rem, 15vw, 4rem);
+  color: var(--fc-primary);
 }
 
 .plantName {
@@ -364,6 +380,7 @@ body {
   text-align: center;
   letter-spacing: 0.05em;
   padding-top: 0.8rem;
+  font-weight: 300;
 }
 
 .plant-size {
@@ -371,6 +388,7 @@ body {
   text-align: center;
   letter-spacing: 0.05em;
   padding-bottom: 1rem;
+  font-weight: 300;
 }
 
 .plant-price {
@@ -378,6 +396,7 @@ body {
   text-align: center;
   letter-spacing: 0.05em;
   padding-bottom: 0.8rem;
+  font-weight: 300;
 }
 
 .product-btn {
@@ -480,7 +499,7 @@ body {
 .testimonials h2 {
   font-style: var(--logo);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   padding-top: 40px;
   padding: clamp(1.2rem, 15vw, 4rem);
 }
@@ -493,6 +512,8 @@ body {
   margin: 0 auto;
   text-align: match-parent;
   padding-bottom: clamp(1.2rem, 15vw, 4rem);
+  font-style: italic;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 1140px) {
@@ -517,12 +538,13 @@ body {
   margin: clamp(1.2rem, 15vw, 4rem);
   font-style: var(--logo);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .about-us-p {
   margin-top: clamp(1.2rem, 15vw, 4rem);
   margin-bottom: clamp(1.2rem, 15vw, 4rem);
+  font-weight: 300;
 }
 
 .aboutUs img {
@@ -550,11 +572,12 @@ body {
   padding: 10px;
   font-style: var(--logo);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .contactUs p {
   padding: 10px;
+  font-weight: 300;
 }
 
 form {
@@ -641,7 +664,7 @@ input[type="submit"] {
 .socialMedia h2 {
   font-style: var(--logo);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   padding: clamp(1.2rem, 15vw, 4rem);
 }
 
@@ -654,7 +677,7 @@ input[type="submit"] {
   width: 90%;
   /* padding: 30px; */
   grid-auto-rows: 1fr 1fr;
-  padding-bottom: clamp(1.2rem, 15vw, 4rem);
+  padding-bottom: 7rem;
 }
 
 .imgGrid div {
