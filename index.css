@@ -13,6 +13,8 @@
 
   --paragraph: "Nunito Sans", sans-serif;
   --logo: "Amatic SC", sans-serif;
+  --letter: 0.05em;
+  --line: 1.3;
 }
 
 /* Entire page */
@@ -45,6 +47,8 @@ body {
   padding: 0%;
   min-height: 100%;
   font-family: var(--paragraph);
+  letter-spacing: var(--letter);
+  line-height: var(--line);
 }
 
 /* Main */
@@ -417,6 +421,7 @@ body {
 /* About us */
 
 .aboutUs {
+  width: min(100ch, 95%);
 }
 
 .about-us-heading {
@@ -424,7 +429,8 @@ body {
 }
 
 .about-us-p {
-  margin: clamp(1.2rem, 15vw, 4rem);
+  margin-top: clamp(1.2rem, 15vw, 4rem);
+  margin-bottom: clamp(1.2rem, 15vw, 4rem);
 }
 
 .aboutUs img {
@@ -434,10 +440,18 @@ body {
   object-position: center;
 }
 
+.hr-line {
+  width: 50px;
+  height: 3px;
+  background-color: var(--footer-bg);
+  margin: 0 auto;
+  margin-top: clamp(1.2rem, 15vw, 4rem);
+  margin-bottom: clamp(1.2rem, 15vw, 4rem);
+}
+
 /* Contact us */
 .contactUs {
-  display: inline-block;
-  justify-content: center;
+  width: min(100ch, 95%);
 }
 
 .contactUs h2 {
