@@ -419,9 +419,7 @@ body {
 }
 
 @media screen and (min-width: 1140px) {
-
   .testWrapper {
-
     margin: auto;
     position: relative;
     display: flex;
@@ -430,7 +428,7 @@ body {
     bottom: 0;
     justify-content: space-evenly;
   }
- 
+}
 
 /* About us */
 
